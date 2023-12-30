@@ -76,3 +76,31 @@
     margin-top: 50px;
     padding: 5px;
 }
+
+@media screen and (max-width:500px) {
+    #hero-section{
+        display: none;
+    }
+    nav{
+        flex-direction: column;
+    }
+
+    #delivery-div{
+        border: none !important;
+    }
+    #search_bar{
+        display: flex;
+        align-items: center;
+    }
+    #search_bar>input{
+        width: 80vw;
+    }
+    .scrollable_div{
+        margin-top: 50px;
+    }
+
+    #footer{
+        width: 90%;
+        text-align: center;
+    }
+}
