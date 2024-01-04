@@ -983,6 +983,15 @@ img {
 .swiper{
   text-align: center;
 }
-
+.add{
+  color: var(--Food-Delivery-Orange-Color, #F94A3D);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+border-radius: 10px;
+border: 1.5px solid tomato;
+}
 
 /*# sourceMappingURL=styles.css.map */
