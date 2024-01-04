@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 1920px;
+height: 4626px;
+}
+#recipes{
+    color: var(--Food-Delivery-PG, #212244);
+    font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+}
+#Recipe_menu{
+    display: flex;
+    list-style: none;
+    display: inline-block;
+    
+}
+hr{
+    width: 1500px;
+    height: 5px;
+    border: 10px solid green;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.our_special{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_1{
+    width: 338px;
+height: 366px;
+flex-shrink: 0;
+border-radius: 24px;
+border: 2px solid rgba(234, 234, 234, 0.00);
+background: #FFF;
+text-align: center;
+}
+
+.name{
+    color: var(--Food-Delivery-PG, #212244);
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.price{
+    color: var(--Food-Text-Color-2, #69697B);
+    
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+}
+
+.amount{
+    
+    color: var(--Food-Delivery-Orange-Color, #F94A3D);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+}
+.button{
+    color:tomato;
+    background-color: white;
+    border-radius: 10px;
+border: 1.5px solid tomato;
+}
+
+
+
+
+
+.customer{
+    width: 84.344px;
+height: 84.344px;
+flex-shrink: 0;
+
+    border-radius: 84.344px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.customer_name{
+    color: var(--Food-Delivery-PG, #212244);
+font-family: Poppins;
+font-size: 25px;
+font-weight: 500;
+}
+.designation{
+    color: var(--Food-Text-Color-2, #69697B);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+
+}
+.v1{
+    background-color: #EAEAEA;
+    border-left: 6px solid ;
+    width: 3px;
+height: 493px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #fffbf7;
+    color:#757484;
+    width: 1920px;
+height: 410px;
+flex-shrink: 0;
+margin: 340px;
+padding: ;
+}
+.upper_part{
+    width: 300px;
+   color:black;
+}
+#fdelivery{
+    color: var(--Food-Delivery-Orange-Color, #F94A3D);
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 112% */
+letter-spacing: -0.25px;
+}
+#social_icon{
+    width: 123.781px;
+height: 30px;
+flex-shrink: 0;
+}
+#footer_icon{
+    background-color: #F94A3D;
+    color: #FFF;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 100% */
+letter-spacing: -0.28px;
+border-radius: 5px;
+}
