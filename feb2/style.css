@@ -1,0 +1,63 @@
+*{
+    padding:0px;
+    margin:0px;
+    background-color: #d9d9d9;
+    font:Inter;
+}
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+    padding:20px;
+}
+#main{
+    margin: 40px;
+}
+#input{
+    width: 89%;
+    height: 30px;
+}
+
+#sort{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    
+}
+#store{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+column{
+    border: 1px solid black;
+    width: 30%;
+    padding: 10px;
+    min-height: 400px;
+}
+#id{
+    width: 50px;
+}
+#name{
+    width: 650px;
+}
+
+
+
+
+
+
+table,th,td{
+    border:1px solid black;
+}
+.table{
+    width: 30%;
+    min-height: 400px;
+}
