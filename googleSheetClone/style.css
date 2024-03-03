@@ -1,0 +1,16 @@
+#container{
+    display: grid;
+    grid-template-columns: 50px repeat(20,100px);
+    grid-template-rows: 50px repeat(26,50px);
+}
+.cell{
+    border: 1px solid rgb(34, 167, 34);
+    box-sizing: border-box;
+}
+#row-1{
+    font-weight: bold;
+    background-color: blanchedalmond;
+}
+.cell-selected{
+    outline: 2px solid rgb(108, 108, 221);
+}

@@ -8,16 +8,25 @@ fetch('https://gist.githubusercontent.com/harsh3195/b441881e0020817b84e34d27ba44
     data.forEach(rd=>{
          const row=document.createElement("tr")
 
-         const id=document.createElement("td");
-         const name=document.createElement("td");
-         const gender=document.createElement("td");
-         const class1=document.createElement("td");
-         const marks=document.createElement("td");
-         const passing=document.createElement("td");
-         const email=document.createElement("td");
+         const id=document.createElement("td").textContent=rd.id;
+         const name=document.createElement("td").textContent=rd.first_name+rd.last_name;
+         const gender=document.createElement("td").textContent=rd.gender;
+         const class1=document.createElement("td").textContent=rd.class;
+         const marks=document.createElement("td").textContent=rd.marks;
+         const passing=document.createElement("td").textContent=rd.passing?"Passed":"Failed";
+         const email=document.createElement("td").textContent=rd.email;
        
-         
+         row.appendChild(id)
+         row.appendChild(name)
+         row.appendChild(gender)
+         row.appendChild(class1)
+         row.appendChild(marks)
+         row.appendChild(passing)
+         row.appendChild(email)
+          
+         table.appendChild(row)
     })
+
 })
 .catch(error => {
     console.error('Error fetching JSON:', error);
