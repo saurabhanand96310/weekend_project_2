@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+<body>
+    <div id="main-div">
+        <h1 id="h1">To-Do-List</h1>
+        <div id="div1"> 
+            <input type="text" placeholder="Item Name">
+            <input type="date" >
+            <form>
+                <input placeholder="Priority"  >
+                <select>
+                    <option>High</option>
+                    <option>Medium</option>
+                    <option>Low</option>
+                </select>
+        </form>
+        <button>Add Item</button>
+        </div>
+        <div id="div2">
+            <h2>Today's ToDoList</h2>
+            <div class="today">
+                <p>1. Acceojob Assignment</p>
+                <p>12/3/2024</p>
+                <p>Priority:High</p>
+                <div class="symbol">
+                    <i class="fa-regular fa-circle-check" style="color: #f4f6fb;"></i> 
+                    <i class="fa-light fa-trash" style="color: #f4f6fb;"></i>
+                </div>
+            </div>
+        </div>
+
+            <div id="div3">
+                <h2>Future ToDoList</h2>
+                <div class="today">
+                    <p>1. Acceojob Assignment</p>
+                    <p>12/3/2024</p>
+                    <p>Priority:High</p>
+                    <div class="symbol">
+                        <i class="fa-regular fa-circle-check" style="color: #f4f6fb;"></i> 
+                        <i class="fa-regular fa-trash" style="color: #dbdfe6;"></i>
+    
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div>
+                <h2>Completed ToDoList</h2>
+                <div>
+                    <div class="today completed">
+                        <p>1. Acceojob Assignment</p>
+                        <p>12/3/2024</p>
+                        <p>Priority:High</p>
+                        <div class="symbol">
+                           
+                            <i class="fa-light fa-trash" style="color:black;"></i>
+        
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white; 
+}
+.inputContent{
+    width: 60%;
+    background-color: rgb(41, 18, 63);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+.MarketCap {
+    width: 15%;
+    background-color: rgb(41, 18, 63);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+.percentage{
+    width: 15%;
+    background-color: rgb(41, 18, 63);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+
+.table-striped{
+    width: 100vw;
+}
+.mainDiv{
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.img img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+
+ 
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  
+  th, td {
+    padding: 8px; 
+    text-align: left; 
+  }
+  
+  th {
+    background-color: #100404;
+  }
+  
+ 
+  /* th:nth-child(1),
+  td:nth-child(1) {
+    width: 10%;
+  }
+  
+  th:nth-child(2),
+  td:nth-child(2) {
+    width: 20%;
+  } */
+  
+ 
+tr {
+    border-bottom: 1px solid #ddd; 
+  }
+  
+ 
+  tr:last-child {
+    border-bottom: none;
+  }
+    
+.mainDiv {
+    width: 80%;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #1426c9;
+  }
+  
+
+  .mainDiv form {
+    margin-bottom: 20px; 
+  }
+  
+  .mainDiv button {
+    margin-right: 10px;
+  }
+  
+
+  .mainDiv button:hover {
+    opacity: 0.8;
+  }
+  
+
+  .table {
+    width: 100%; 
+    border-collapse: collapse;
+  }
+  
+
+  .table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+  }
+  .formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+ 
+  
+

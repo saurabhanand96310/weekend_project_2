@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+   
+    background-color:rgb(110, 110, 158);
+    font-family: Arial, Helvetica, sans-serif;
+     height: 100vh;
+}
+
+.header{
+    background: white;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+.search_box{
+    display: flex;
+    align-items: center;
+}
+.city-input{
+    flex:1;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 15px;
+    font-size: 1rem;
+
+}
+.searchBtn{
+    background-color:  #3498db;
+    border: none;
+    padding: 15px; 
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+    transition: background-color 0.3s ease; 
+}
+.searchBtn:hover{
+   background-color: hsl(204, 57%, 39%);
+}
+
+.main{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+#city{
+    font-size: 2 rem;
+    opacity: 0.9;
+}
+#date{
+    background-color: rgb(171, 171, 236);
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.temp-info{
+     margin-top: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+#temp{
+    font-size: 10rem;
+
+}
+.condition{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.temo-info .condition i{
+    opacity: 0.1;
+}
+.temo-info .condition span{
+    font-size: 1.2rem;
+}
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.moreInfo{
+    background-color: #ecf0f1;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./style.css" />
+    
+  </head>
+  <body>
+    <div class="header">
+    <form class="search_box" >
+      <input class="city-input" type="text" placeholder="Enter your city ">
+      <button class="searchBtn"><i class="material-icons">search</i></button>
+    </form>
+
+    <div class="main">
+        <h2 id="city">Mumbai</h2>
+        <p id="date">7 jan</p>
+    </div>
+    <div class="temp-info">
+      <div class="condition">
+        <i class="material-icons">cloud</i>
+        <span id="description">smoke</span>
+      </div>
+        <p id="temp">29</p>
+    </div>
+
+    <div class="footer">
+      <div class="moreInfo">
+        <p><i class="material-icons">air</i></p>
+        <p id="speed">43km/h</p>
+        <p>wind</p>
+      </div>
+      <div class="moreInfo">
+        <p><i class="material-icons">water_drop</i></p>
+        <p id="humidity">50%</p>
+        <p >humidity</p>
+      </div>
+      <div class="moreInfo">
+        <p><i class="material-icons">visibility</i></p>
+        <p id="visibility">5 km</p>
+        <p>visibility</p>
+      </div>
+    </div>
+
+  </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
