@@ -24,7 +24,7 @@ async function fetchData(url) {
           <td>${item.symbol.toUpperCase()}</td>
           <td>$${item.current_price}</td>
           <td>$${item.total_volume}</td>
-          <td>${item.price_change_percentage_24h}%</td>
+          <td>${item.price_change_percentage_24h.toFixed(2)}%</td>
           <td>Mkt Cap: ${item.market_cap}</td>
         </tr>`;
       table.innerHTML += row;
