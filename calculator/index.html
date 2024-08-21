@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <!-- <div class="Calculator">
+        <nav class="nav">
+            <div>9:41</div>
+            <div>
+                <i class="material-icons">signal_cellular_alt</i>
+                <i class="material-icons">wifi</i>
+                <i class="material-icons"> battery_full_alt</i>
+            </div>
+        </nav>
+
+        <div>
+            <input class="inputElement" type="number">
+            <div class="numberOperation">
+                <div class="ac operation">AC</div>
+                <div class="+- operation">+/-</div>
+                <div class="% operation">%</div>
+                <div class="/ operation">÷</div>
+            </div>
+            <div class="numberOperation">
+                <div class="7 operation">7</div>
+                <div class="8 operation">8</div>
+                <div class="9 operation">9</div>
+                <div class="* operation">×</div>
+            </div>
+            <div class="numberOperation">
+                <div class="4 operation">4</div>
+                <div class="5 operation">5</div>
+                <div class="6 operation">6</div>
+                <div class="- operation">-</div>
+            </div>
+            <div class="numberOperation">
+                <div class="1 operation">1</div>
+                <div class="2 operation">2</div>
+                <div class="3 operation">3</div>
+                <div class="+ operation">+</div>
+            </div>
+            <div class="numberOperation">
+                <div class="zero operation">0</div>
+                <div class="7 operation">.</div>
+                <div class=". operation">=</div>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+     </div> -->
+
+     <div class="container">
+        
+        <div class="calculator">
+            <nav class="nav">
+                <div>9:41</div>
+                <div>
+                    <i class="material-icons">signal_cellular_alt</i>
+                    <i class="material-icons">wifi</i>
+                    <i class="material-icons"> battery_full_alt</i>
+                </div>
+            </nav>
+            
+            <form action="">
+                <div class="display">
+                    <input type="text" name="display">
+                </div>
+                <div class="button">
+                    <input type="button" value="AC" onclick="display.value ='' ">
+                    <input type="button" value="+/-" onclick="display.value +='' ">
+                    <input type="button" value="%" onclick="display.value +='%' ">
+                    <input type="button" value="÷" onclick="display.value +='/' "> 
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="display.value +='7' ">
+                    <input type="button" value="8" onclick="display.value +='8' ">
+                    <input type="button" value="9" onclick="display.value +='9' ">
+                    <input type="button" value="×" onclick="display.value +='*' ">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="display.value +='4' ">
+                    <input type="button" value="5" onclick="display.value +='5' ">
+                    <input type="button" value="6" onclick="display.value +='6' ">
+                    <input type="button" value="-" onclick="display.value +='-' ">
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="display.value +='1' ">
+                    <input type="button" value="2" onclick="display.value +='2' ">
+                    <input type="button" value="3" onclick="display.value +='3' ">
+                    <input type="button" value="+" onclick="display.value +='+' ">
+                </div>
+                <div>
+                    <input type="button" value="0" class="Zero" onclick="display.value +='0' ">
+                    <input type="button" value="." onclick="display.value +='.' ">
+                    <input type="button" value="="  onclick="display.value =eval(display.value) ">
+                </div>
+
+            </form>
+        </div>
+     </div>
+<script src="./script.js"></script>
+
+
+
+</body>
+</html>
