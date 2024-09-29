@@ -91,6 +91,13 @@
     display: flex;
     justify-content: flex-end;
     margin: 20px 0px;
+    
+}
+#display{
+    border-radius: 10px; 
+    font-size: 50px;
+    padding: 10px;
+
 }
 
 .display input{

@@ -1,0 +1,21 @@
+
+
+
+.app{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    height: 100vh;
+     
+    .left-container{
+        height: 100%;
+        /* outline: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right-container{
+
+    }
+}

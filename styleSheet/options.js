@@ -106,7 +106,7 @@ form.addEventListener("change", function () {
         isUnderlined: form["isUnderlined"].checked,
         align: form["align"].value,
         textColor: form["textColor"].value,
-        backgroundColor: form["backgroundColor"].value
+        backgroundColor: form["backgroundColor"].value,
     }
 
     state[selectedCell.id] = { ...formData, innerText: selectedCell.innerText };
@@ -130,3 +130,10 @@ expressionInput.addEventListener("keyup", (e) => {
         }
     }
 })
+const togglebtn=document.getElementById("togglebtn");
+togglebtn.addEventListener('click',()=>{
+    const t=togglebtn.target.value;
+    
+
+}
+)

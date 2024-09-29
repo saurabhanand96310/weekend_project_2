@@ -1,0 +1,13 @@
+@import 'material-icons/iconfont/material-icons.css';
+
+@font-face {
+    font-family: my-font;
+    src: url(./font.ttf);
+}
+
+body{
+    margin: 0;
+    background-color: #0E172A;
+    font-family: my-font;
+    color: #E2E8F0;
+}
