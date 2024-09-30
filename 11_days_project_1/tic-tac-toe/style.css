@@ -1,3 +1,4 @@
+/*  your css code here. If applicable */
 *{
     margin: 0;
     padding: 0;
@@ -15,8 +16,8 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 600px;
-    width: 300px;
+    height: 500px;
+    width: 289px;
     flex-wrap: wrap;
     border: 10px solid black;
 }
@@ -25,11 +26,13 @@ body{
     height: 300px;
     display: flex;
     flex-wrap: wrap;
+	
 }
 .box{
     height: 100px;
     width: 90px;
     font-size: 55px;
+    background-color: #FFC0CB;
 
 }
 #submit{
